@@ -11,7 +11,7 @@ body, html, #root {
 /* Navbar styles */
 #navbar {
     background-color:white;
-    color: white;
+    color: black;
     padding: 10px 0;
     width: 100%;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);

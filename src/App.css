@@ -10,7 +10,7 @@ body, html, #root {
 
 /* Navbar styles */
 #navbar {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color:white;
     color: white;
     padding: 10px 0;
     width: 100%;

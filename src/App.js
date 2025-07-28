@@ -11,12 +11,12 @@ const App = () => {
   return (
     <div>
       <Navbar />
+      {/* <Footer /> */}
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<AboutMe />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/feedback" element={<Feedback />} />
-
       </Routes>
     </div>
   );

@@ -27,11 +27,6 @@ const Navbar = () => {
                             </li>
                         </ul>
                     </div>
-
-                    <div id="buttons">
-                        <button className="btn btn-outline-success" type="submit" id="left-btn">Login</button>
-                        <button className="btn btn-outline-success" type="submit">Sign Up</button>
-                    </div>
                 </div>
             </nav>
         </div>

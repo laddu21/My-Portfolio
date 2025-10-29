@@ -1,0 +1,56 @@
+{
+  "skills": [
+    {
+      "category": "Frontend Development",
+      "technologies": ["HTML5", "CSS3", "JavaScript (ES6+)", "React.js", "Next.js", "Tailwind CSS", "Bootstrap"]
+    },
+    {
+      "category": "Backend Development",
+      "technologies": ["Node.js", "Express.js", "Python", "RESTful APIs"]
+    },
+    {
+      "category": "Database Management",
+      "technologies": ["MongoDB", "MySQL", "Firebase"]
+    },
+    {
+      "category": "Tools & Technologies",
+      "technologies": ["Git", "GitHub", "AWS"]
+    },
+    {
+      "category": "Programming Languages",
+      "technologies": ["JavaScript", "Python", "SQL"]
+    }
+  ],
+  "experience": [
+    {
+      "position": "Full Stack Developer/Business Development Analyst",
+      "company": "Cultfit Healthcare Pvt Ltd",
+      "duration": "July 2024 - Present",
+      "description": "Leading full-stack development initiatives while contributing to business development strategies. Developing scalable web applications, analyzing market trends, identifying growth opportunities, and implementing solutions that drive business objectives and improve user experience.",
+      "technologies": ["React", "Node.js", "MongoDB", "Express", "Python", "AWS"]
+    },
+    {
+      "position": "Full Stack Web Developer",
+      "company": "Internshala",
+      "duration": "May 2023 - July 2023",
+      "description": "Gained hands-on experience in full-stack web development through an intensive internship program. Worked on real-world projects, learned industry best practices, and collaborated with experienced developers to deliver functional web applications.",
+      "technologies": ["React", "Node.js", "MongoDB", "Express", "JavaScript"]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in Electronics and Communication Engineering",
+      "institution": "JNTU Ananthapur University",
+      "duration": "2020 - 2024",
+      "grade": "7.0 CGPA",
+      "description": "Passionate about full stack web development. Focused on electronics, communication systems, and software development. Active participation in technical projects and coding competitions."
+    },
+    {
+      "degree": "Intermediate (12th Grade)",
+      "institution": "Sree Sai Jr. College",
+      "duration": "2018 - 2020",
+      "grade": "",
+      "description": "Mathematics, Physics, Chemistry, and Computer Science as major subjects. Developed strong foundation in science and mathematics."
+    }
+  ]
+}

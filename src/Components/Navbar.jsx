@@ -56,7 +56,15 @@ const Navbar = ({ toggleTheme, isDarkMode }) => {
                 {isMenuOpen && (
                     <div className="fixed inset-0 z-50 md:hidden">
                         <div className="absolute inset-0 bg-black bg-opacity-50" onClick={() => setIsMenuOpen(false)}></div>
-                        <div className="absolute left-0 top-16 h-full w-64 bg-gray-100 shadow-lg transform transition-transform duration-300 translate-x-0">
+                        <div className="absolute left-0 top-16 h-screen w-64 bg-gray-100 shadow-lg transform transition-transform duration-300 translate-x-0">
+                            <button
+                                onClick={() => setIsMenuOpen(false)}
+                                className="absolute top-4 right-4 p-2 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors duration-300 z-10"
+                            >
+                                <svg className="w-6 h-6 text-gray-700 dark:text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                                </svg>
+                            </button>
                             <div className="p-4">
                                 <div className="flex flex-col space-y-4">
                                     <a href="#home" className="text-gray-700 dark:text-gray-200 hover:text-blue-500 font-bold text-lg transition-all duration-300 ease-in-out px-4 py-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700" onClick={handleLinkClick}>

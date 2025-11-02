@@ -163,7 +163,7 @@ const Projects = () => {
                             </div>
 
                             {/* Project Details */}
-                            <div className="h-1/2 p-6 flex flex-col justify-between">
+                            <div className="h-1/2 p-6 flex flex-col justify-between overflow-y-auto">
                                 <div>
                                     <div className="flex items-center justify-between mb-4">
                                         <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
@@ -183,7 +183,7 @@ const Projects = () => {
 
                                 <div className="flex justify-center">
                                     <a
-                                        href={selectedProject.link}
+                                        href={selectedProject.link || "https://github.com/laddu21"}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className={`inline-flex items-center px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:scale-105 shadow-lg ${selectedProject.category === 'Full Stack'
@@ -194,7 +194,7 @@ const Projects = () => {
                                         <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                                         </svg>
-                                        View on GitHub
+                                        {selectedProject.link ? "View Live Projects" : "View on GitHub"}
                                     </a>
                                 </div>
                             </div>

@@ -208,7 +208,7 @@ const AboutMe = () => {
                         <span className="animate-pulse text-blue-500">|</span>
                     </h1>
 
-                    <div className="space-y-6 text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
+                    <div className="space-y-6 text-lg text-gray-600 dark:text-gray-300 leading-relaxed text-justify">
                         <p>
                             I am a passionate full stack web developer with expertise in building modern, scalable, and responsive web applications. My journey in tech is driven by a love for problem-solving, continuous learning, and delivering impactful solutions.
                         </p>
@@ -272,7 +272,7 @@ const AboutMe = () => {
 
                     {/* Resume Download */}
                     <div className="mt-6 flex justify-center">
-                        <a href="/IMGS/Rabbani_Fullstack_Developer.pdf" target="_blank" rel="noopener noreferrer"
+                        <a href="/Shaik_Resume_Full_Stack.pdf" target="_blank" rel="noopener noreferrer"
                             className="bg-purple-600 hover:bg-purple-700 text-white px-4 py-3 md:px-8 md:py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105 shadow-lg inline-flex items-center text-sm md:text-base">
                             <i className="fas fa-file-alt mr-2"></i> Download Resume
                         </a>
@@ -282,7 +282,7 @@ const AboutMe = () => {
 
             {/* Tab Navigation */}
             <div className="mb-4 md:mb-8">
-                <div className="flex justify-center gap-2 md:gap-4 mb-4 md:mb-8">
+                <div className="flex justify-center gap-1 md:gap-4 mb-4 md:mb-8 overflow-x-auto">
                     {[
                         { id: 'skills', label: 'Skills', icon: '💻' },
                         { id: 'experience', label: 'Experience', icon: '💼' },
@@ -294,10 +294,10 @@ const AboutMe = () => {
                         <button
                             key={tab.id}
                             onClick={() => setActiveTab(tab.id)}
-                            className={`${getTabClass(tab.id)} px-3 py-2 md:px-4 md:py-3 text-sm md:text-base`}
+                            className={`${getTabClass(tab.id)} px-2 py-2 text-sm md:px-6 md:py-4 md:text-lg whitespace-nowrap`}
                         >
-                            <span className="mr-1 md:mr-2">{tab.icon}</span>
-                            {tab.label}
+                            <span className="mr-1 md:mr-2 text-xl md:text-2xl">{tab.icon}</span>
+                            <span className="hidden sm:inline">{tab.label}</span>
                         </button>
                     ))}
                 </div>

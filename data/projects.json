@@ -4,7 +4,7 @@
     "title": "GYM Website",
     "image": "/IMGS/GYM UI.png",
     "description": "A modern and responsive GYM website developed using the MERN stack (MongoDB, Express.js, React.js, Node.js). This project features a user-friendly interface, real-time data updates, and a fully functional backend. The website is fully deployed on GitHub, showcasing my ability to create dynamic web applications and implement full-stack solutions.",
-    "link": "https://github.com/laddu21/biodata-form",
+    "link": "https://gym-management-system-2-6bds.onrender.com",
     "category": "Full Stack"
   },
   {
@@ -12,7 +12,7 @@
     "title": "Swiggy UI Clone",
     "image": "/IMGS/Swigy UI.png",
     "description": "A Swiggy UI clone developed using the MERN stack (MongoDB, Express.js, React.js, Node.js). This project replicates the user interface and functionality of the popular food delivery service, showcasing my skills in building responsive and interactive web applications. The clone is fully deployed on GitHub, demonstrating my ability to create complex front-end designs and implement backend services.",
-    "link": "https://github.com/laddu21/biodata-form",
+    "link": "https://food-delivery-app-88sq.onrender.com/",
     "category": "Full Stack"
   },
   {
@@ -76,7 +76,7 @@
     "title": "Book Finder",
     "image": "/IMGS/Book Finder.png",
     "description": "A Book Finder application developed using React.js and the Open Library API. This project allows users to search for books, view detailed information, and explore a vast collection of books from the Open Library database. The application features a responsive design, real-time search functionality, and an intuitive user interface. Fully deployed on GitHub, it showcases my skills in API integration, React development, and building interactive front-end applications.",
-    "link": "https://github.com/prabinmagar/booklib-app-using-react-js-and-openlib-api.git",
+    "link": "https://book-finder-git-master-rabbanis-projects-5dc2f6ba.vercel.app/",
     "category": "Frontend"
   },
   {

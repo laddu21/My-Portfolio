@@ -1,6 +1,6 @@
+import React, { useState } from 'react';
 import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
-import { useState } from 'react';
 import './App.css';
 
 const App = () => {

@@ -20,7 +20,7 @@
     "title": "Blog Application",
     "image": "/IMGS/Blog-app.png",
     "description": "A Blog Application developed using the MERN stack (MongoDB, Express.js, React.js, Node.js). This project allows users to create, read, update, and delete blog posts, showcasing my skills in building full-stack web applications. The application is fully deployed on GitHub, demonstrating my ability to implement RESTful APIs and manage user authentication.",
-    "link": "https://github.com/laddu21/biodata-form",
+    "link": "https://news-app-xi-neon.vercel.app/",
     "category": "Full Stack"
   },
   {
@@ -28,48 +28,8 @@
     "title": "Weather App",
     "image": "/IMGS/weather-app.png",
     "description": "A modern and responsive Weather App developed using the MERN stack (Express.js, React.js, Node.js). This project allows users to search for weather information by city, showcasing my skills in building full-stack web applications. The application is fully deployed on GitHub, demonstrating my ability to implement RESTful APIs and manage user authentication.",
-    "link": "https://github.com/laddu21/biodata-form",
+    "link": "https://weather-app-nine-beryl-jc9o0bwmb8.vercel.app/",
     "category": "Full Stack"
-  },
-  {
-    "id": 5,
-    "title": "Digital Clock",
-    "image": "/IMGS/Digital Clock.png",
-    "description": "A responsive Digital Clock web application developed using HTML, CSS, and JavaScript. This project showcases real-time time updates with a clean and modern UI. The application is fully deployed on GitHub and demonstrates my ability to build interactive front-end features and handle dynamic data updates efficiently.",
-    "link": "https://github.com/laddu21/biodata-form",
-    "category": "Frontend"
-  },
-  {
-    "id": 6,
-    "title": "Registration Form",
-    "image": "/IMGS/Registration Form.png",
-    "description": "A modern and responsive Registration Form web application developed using HTML, CSS, and JavaScript. This project features real-time validation, a clean user interface, and seamless user experience. The form is fully deployed on GitHub, demonstrating my ability to create interactive front-end solutions and implement best practices in web development.",
-    "link": "https://github.com/laddu21/biodata-form",
-    "category": "Frontend"
-  },
-  {
-    "id": 7,
-    "title": "Calculator",
-    "image": "/IMGS/Calculator.png",
-    "description": "A fully functional and responsive Calculator web application developed using HTML, CSS, and JavaScript. This project demonstrates my ability to implement core mathematical operations, design intuitive user interfaces, and ensure cross-device compatibility. The calculator is deployed on GitHub and showcases my proficiency in front-end development and problem-solving.",
-    "link": "https://github.com/laddu21/biodata-form",
-    "category": "Frontend"
-  },
-  {
-    "id": 8,
-    "title": "Ice Cream Website",
-    "image": "/IMGS/Ice Cream.png",
-    "description": "A visually appealing and responsive Ice Cream website developed using HTML, CSS, and Bootstrap. This project highlights my ability to create engaging user interfaces with modern design principles and seamless responsiveness across devices. The website is fully deployed on GitHub, demonstrating my proficiency in front-end development and effective use of Bootstrap for rapid UI creation.",
-    "link": "https://github.com/laddu21/biodata-form",
-    "category": "Frontend"
-  },
-  {
-    "id": 9,
-    "title": "Bio Data Form",
-    "image": "/IMGS/FirstPage.png",
-    "description": "A professional and user-friendly Bio Data Form web application developed using HTML and CSS. This project features a clean, modern interface designed for efficient data entry and validation. The form is fully responsive, ensuring seamless usability across devices. Successfully deployed on GitHub, it demonstrates my ability to create practical front-end solutions and deliver polished, production-ready web applications.",
-    "link": "https://github.com/laddu21/biodata-form",
-    "category": "Frontend"
   },
   {
     "id": 10,
@@ -80,27 +40,11 @@
     "category": "Frontend"
   },
   {
-    "id": 11,
-    "title": "Notepad Application",
-    "image": "/IMGS/Notepad.png",
-    "description": "A functional Notepad application developed using HTML, CSS, and JavaScript. This project provides a simple yet effective text editing interface with features like save, load, and basic formatting options. The application demonstrates my ability to create practical utility tools with clean UI design and local storage functionality. Deployed on GitHub, it showcases front-end development skills and user interface design.",
-    "link": "https://github.com/laddu21/biodata-form",
-    "category": "Frontend"
-  },
-  {
     "id": 12,
     "title": "React Todo App",
     "image": "/IMGS/react.todo.png",
     "description": "A modern Todo application built with React.js, featuring task management capabilities with add, edit, delete, and completion tracking. This project demonstrates React state management, component architecture, and responsive design. The app includes local storage for data persistence and a clean, intuitive user interface. Fully deployed on GitHub, it highlights my proficiency in React development and modern JavaScript practices.",
-    "link": "https://github.com/laddu21/biodata-form",
-    "category": "Frontend"
-  },
-  {
-    "id": 13,
-    "title": "Snake Game",
-    "image": "/IMGS/Snake.png",
-    "description": "A classic Snake game implementation using HTML, CSS, and JavaScript. This project features smooth gameplay mechanics, score tracking, and increasing difficulty levels. The game demonstrates my skills in game development logic, canvas manipulation, and interactive front-end programming. Deployed on GitHub, it showcases creative problem-solving and attention to user experience in web-based games.",
-    "link": "https://github.com/laddu21/biodata-form",
+    "link": "https://weather-app-jugo.vercel.app/",
     "category": "Frontend"
   }
 ]

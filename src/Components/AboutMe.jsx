@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import resumeData from '../data/resume.json';
 
 const name = "Rabbani"; // Replace with your name
